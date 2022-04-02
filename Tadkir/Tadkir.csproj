@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>tadkir.ico</ApplicationIcon>
+        <PackageIcon>tadkir.ico</PackageIcon>
+        <PackageVersion>1.0</PackageVersion>
+        <Authors>MrTech</Authors>
+        <Company>MrTech</Company>
+        <AssemblyVersion>1.0</AssemblyVersion>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>mrtech.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\icons\exiticon.png" />
+      <Resource Include="Resources\icons\exiticon.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="$(SolutionDir)Tadkir\Resources\images\**"
+              CopyToOutputDirectory="PreserveNewest"
+              LinkBase="images\" />
+    </ItemGroup>
+
+</Project>

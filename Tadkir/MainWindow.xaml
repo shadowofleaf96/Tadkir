@@ -1,0 +1,22 @@
+﻿<Window x:Class="Tadkir.MainWindow "
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:localization="clr-namespace:Tadkir.Resources"
+        mc:Ignorable="d"
+        Title="{x:Static localization:Resources.Tadkir}"  Height="600" Width="450" Visibility="Hidden"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        SizeToContent="Height"
+        Background="Transparent"
+        WindowStartupLocation="Manual" 
+        ResizeMode="NoResize">
+    <Grid x:Name="Layout">
+                <Image Source="Resources/icons/exiticon.png"  Margin="0,10,10,0" Width="35" Height="35" VerticalAlignment="Top" HorizontalAlignment="Right" Canvas.ZIndex="2" MouseDown="CloseButton_Click"/>
+                <Image Name="Quran" />        
+    </Grid>
+    <Window.Clip>
+        <RectangleGeometry Rect="0,0,450,600" RadiusX="25" RadiusY="25"/>
+    </Window.Clip>
+</Window>
