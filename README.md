@@ -1,37 +1,42 @@
-```markdown
-# Tadkir App
+# Tadkir
 
-## About
-Tadkir App is a simple Windows Presentation Foundation (WPF) application built in C#. The primary goal of this app is to serve as a reminder that reading the Quran is a good and virtuous practice. It provides a straightforward interface for users to set reminders and track their Quran reading progress.
+![GreenVille Logo](https://github.com/shadowofleaf96/Tadkir/blob/main/Screenshot%202022-03-29%20232041_2.png?raw=true)
+
+Welcome to Tadkir, simple Windows Presentation Foundation (WPF) application designed to encourage and remind users about the importance of reading the Quran.
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Contributing](#contributing)
 
 ## Features
-- Encourage people to read quran after some time.
-- User-friendly interface for easy interaction.
-- Minimalistic design to keep the focus on the Quranic practice.
 
-## Screenshots
-![Main Screen](/screenshots/main_screen.png)
-*Add relevant screenshots to showcase the application's interface.*
-
-## Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+- Auto popup after every 3 hours from windows start
+- Auto Start with windows start
+- Set customizable reminders to read the Quran(in progress)
+- Track your daily Quran reading progress(in progress)
+- Simple and intuitive user interface
+- Designed for Windows operating system
 
 ### Prerequisites
-- Visual Studio (2019 or later)
-- .NET Framework (minimum version required)
+
+- Windows operating system
+- .NET Framework installed
 
 ### Installation
-1. Clone the repository to your local machine using the following command:
+
+1. Clone the repository:
+
    ```bash
-   git clone https://github.com/your-username/QuranReminderApp.git
+   git clone https://github.com/shadowofleaf96/Tadkir.git
+   ```
 
-2. Open the solution file (`QuranReminderApp.sln`) in Visual Studio.
+2. Open the solution in Visual Studio
 
-3. Build the solution to restore the necessary packages and dependencies.
+3. Build and run the application
 
-4. Run the application to start using the Quran Reminder App.
+## Contributing
 
-## Usage
-- After a certain time, the app automatically popup to remind you to read quran 
-- You can hide the app
-- the app also autostart
+We welcome contributions from the community. If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request. Check our [contribution guidelines](CONTRIBUTING.md) for more details.
