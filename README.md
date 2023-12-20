@@ -39,4 +39,4 @@ Welcome to Tadkir, simple Windows Presentation Foundation (WPF) application desi
 
 ## Contributing
 
-We welcome contributions from the community. If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request. Check our [contribution guidelines](CONTRIBUTING.md) for more details.
+We welcome contributions from the community. If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
